@@ -15,6 +15,7 @@ streamlit = "*"
 streamlit-chat = "*"
 bs4 = "*"
 html5lib = "*"
+async-timeout = "*"
 
 [dev-packages]
 
