@@ -9,7 +9,7 @@ from langchain_community.document_transformers import BeautifulSoupTransformer
 
 
 def run_crawler():
-    loader = AsyncHtmlLoader('https://www.turners.co.nz/Cars/Used-Cars-for-Sale/toyota/prius/23650474', default_parser="html5lib")
+    loader = AsyncHtmlLoader('https://www.turners.co.nz/Cars/Used-Cars-for-Sale/audi/a3/23625602', default_parser="html5lib")
     data = loader.load()
     html2text = BeautifulSoupTransformer()
     docs_transformed = html2text.transform_documents(

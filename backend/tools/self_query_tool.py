@@ -62,7 +62,17 @@ def search(query: str):
         ),
         AttributeInfo(
             name="vehicle_type",
-            description="the type of vehicle this is. eg hatchback, waggon, van or SUV",
+            description="the type of vehicle this is. One of ['Wagon', 'Sedan' ,'Hatchback', 'Utility', 'Van', 'Tractor']",
+            type="string"
+        ),
+        AttributeInfo(
+            name="colour",
+            description="the color of the vehicle",
+            type="string"
+        ),
+        AttributeInfo(
+            name="drive",
+            description="the drive wheels on this vehicle One of ['Two Wheel Drive', 'Four Wheel Drive']",
             type="string"
         )
     ]
@@ -100,7 +110,11 @@ def vehicle_search(query: str, branches: list[str], price: Optional[str] = None)
     This tool and process a query sent as natural language query DO NOT send it json
     """
     if branches:
-        query += ",".join(branches)
+        query += f"""
+         in any of these locations
+         {",".join(branches)}
+         ------
+        """
     if price:
         query += " for "+price
     return search(query=query)
