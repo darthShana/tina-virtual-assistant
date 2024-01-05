@@ -16,6 +16,7 @@ streamlit-chat = "*"
 bs4 = "*"
 html5lib = "*"
 async-timeout = "*"
+exceptiongroup = "*"
 
 [dev-packages]
 
