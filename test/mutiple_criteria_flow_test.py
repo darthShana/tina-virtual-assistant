@@ -49,36 +49,37 @@ def test_multiple_criteria_flow(memory, sales_agent):
             "input": "under 20k",
         }
     )
-    print(result)
+    # print(result)
 
-    # evaluator = StepNecessityEvaluator()
-    # expected = [
-    #     {
-    #         "name": "adjust_to_turners_geography",
-    #         "arguments": [{'location': 'hamilton'}],
-    #         "observation": ['hamilton']
-    #     },
-    #     {
-    #         "name": "vehicle_search",
-    #         "arguments": [{
-    #             "query": "4WD vehicles with towing capacity suitable for a boat",
-    #             "branches": ["hamilton"],
-    #             "price": "around 15k"
-    #         }],
-    #         "observation": """
-    #         1. 2002 Nissan Navara S/C C/S
-    #         2. 2009 Audi Q7
-    #         3. 2011 Volkswagen Amarok DC 4M 400 HL
-    #         """
-    #     }
-    # ]
-    #
-    # evaluation_result = evaluator.evaluate_agent_trajectory(
-    #     prediction=json.dumps(expected),
-    #     input="im in hamilton, something for around 25k",
-    #     agent_trajectory=result['intermediate_steps'],
-    # )
-    #
-    # print(evaluation_result)
-    # assert evaluation_result['score'] == 1
+    evaluator = StepNecessityEvaluator()
+    expected = [
+        {
+            "name": "adjust_to_turners_geography",
+            "arguments": [{'location': 'Auckland'}],
+            "observation": ['Westgate', 'North Shore', 'Otahuhu', 'Penrose', 'Botany', 'Manukau']
+        },
+        {
+            "name": "vehicle_search",
+            "arguments": [{
+                "query": "hatchback or sedan with airbags and a reversing camera",
+                "branches": ['Westgate', 'North Shore', 'Otahuhu', 'Penrose', 'Botany', 'Manukau'],
+                "price": "under 20k"
+            }],
+            "observation": """
+            1. 2018 Nissan Note** - $13,700
+            2. 2012 Honda Insight (Petrol Hybrid)** - $13,700
+            3. 2015 Mazda Axela** - $19,450
+            4. 2015 Mazda Axela** - $19,450
+            """
+        }
+    ]
+
+    evaluation_result = evaluator.evaluate_agent_trajectory(
+        prediction=json.dumps(expected),
+        input="im in hamilton, something for around 25k",
+        agent_trajectory=result['intermediate_steps'],
+    )
+
+    print(evaluation_result)
+    assert evaluation_result['score'] == 1
 

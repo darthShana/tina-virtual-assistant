@@ -1,5 +1,5 @@
 from langchain.chains import LLMChain
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.agents import tool
 from pydantic.v1 import BaseModel, Field

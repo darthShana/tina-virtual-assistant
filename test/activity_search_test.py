@@ -49,7 +49,7 @@ With these details, I can search for vehicles that match your towing needs and p
         {
             "name": "vehicle_search",
             "arguments": [{
-                "query": "4WD vehicles with towing capacity suitable for a boat",
+                "query": "4WD vehicles with towing capacity",
                 "branches": ["hamilton"],
                 "price": "around 15k"
             }],

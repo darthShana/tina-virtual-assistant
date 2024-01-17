@@ -3,22 +3,27 @@ from typing import Optional
 
 from pydantic.v1 import BaseModel, Field
 from langchain.agents import tool
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain.retrievers.self_query.base import SelfQueryRetriever
-from langchain.vectorstores import Pinecone
-from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain_community.vectorstores import Pinecone
+from langchain_openai import OpenAIEmbeddings
 from langchain.chains.query_constructor.base import AttributeInfo
-import pinecone
+
 from const import PRODUCT_INDEX_NAME
 
 
 def search(query: str):
-    embeddings = OpenAIEmbeddings()
+    retriever = self_query_retriever()
 
+    docs = retriever.get_relevant_documents(query)
+    return docs
+
+
+def self_query_retriever():
+    embeddings = OpenAIEmbeddings()
     vectordb = Pinecone.from_existing_index(
         index_name=PRODUCT_INDEX_NAME, embedding=embeddings
     )
-
     metadata_field_info = [
         AttributeInfo(
             name="make",
@@ -83,15 +88,9 @@ def search(query: str):
         vectordb,
         document_content_description,
         metadata_field_info,
-        enable_limit=True,
         verbose=True
     )
-
-    docs = retriever.get_relevant_documents(query)
-    return docs
-
-
-pinecone.init(api_key=os.environ["PINECONE_API_KEY"], environment=os.environ["PINECONE_ENVIRONMENT_REGION"])
+    return retriever
 
 
 class VehicleSearchInput(BaseModel):
@@ -106,17 +105,17 @@ class VehicleSearchInput(BaseModel):
 @tool(args_schema=VehicleSearchInput)
 def vehicle_search(query: str, branches: list[str], price: Optional[str] = None):
     """
-    useful for when you need find vehicles that match vehicle criteria such as make, model, year, fuel-type, location, price, mileage, seats.
-    This tool and process a query sent as natural language query DO NOT send it json
+    useful for when you need find vehicles that include vehicle criteria such as make, model, year, fuel-type, location, price, mileage, seats.
+    This tool and process a query sent as natural language query into a structured query DO NOT send it json
     """
-    if branches:
+    if ",".join(branches):
         query += f"""
          in any of these locations
          {",".join(branches)}
-         ------
         """
     if price:
         query += " for "+price
     return search(query=query)
+
 
 

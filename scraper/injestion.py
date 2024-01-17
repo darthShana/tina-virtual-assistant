@@ -1,12 +1,12 @@
 import os
-from langchain.document_loaders import AsyncHtmlLoader
+from langchain_community.document_loaders import AsyncHtmlLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.vectorstores import Pinecone
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.chat_models import ChatOpenAI
+from langchain_community.vectorstores import Pinecone
+from langchain_openai import OpenAIEmbeddings
+from langchain_openai import ChatOpenAI
 from langchain.document_transformers.openai_functions import create_metadata_tagger
 from langchain_community.document_transformers import BeautifulSoupTransformer
-from tinydb import TinyDB, Query
+from tinydb import TinyDB
 import time
 
 import pinecone
@@ -44,7 +44,7 @@ def run_crawler():
 
     print("metadata tagged")
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=25,
-                                                   separators=["\n\n", "\n", " ", ""])
+                                                   separators=["\n\n", "\n", "  ", ""])
     documents = text_splitter.split_documents(documents=enhanced_documents)
     print(f"split into {len(documents)} chunks")
 

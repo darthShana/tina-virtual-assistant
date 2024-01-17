@@ -1,9 +1,5 @@
 from itertools import zip_longest
-
-from langchain.chat_models import ChatOpenAI
-
 from backend.tina import Tina
-
 import streamlit as st
 from streamlit_chat import message
 

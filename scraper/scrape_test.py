@@ -1,6 +1,7 @@
 import os
-from langchain.document_loaders import AsyncHtmlLoader
-from langchain.chat_models import ChatOpenAI
+from langchain_community.document_loaders import AsyncHtmlLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_openai import ChatOpenAI
 from langchain.document_transformers.openai_functions import create_metadata_tagger
 
 import pprint
@@ -9,7 +10,7 @@ from langchain_community.document_transformers import BeautifulSoupTransformer
 
 
 def run_crawler():
-    loader = AsyncHtmlLoader('https://www.turners.co.nz/Cars/Used-Cars-for-Sale/audi/a3/23625602', default_parser="html5lib")
+    loader = AsyncHtmlLoader('https://www.turners.co.nz/Cars/Used-Cars-for-Sale/toyota/sienta/23650540', default_parser="html5lib")
     data = loader.load()
     html2text = BeautifulSoupTransformer()
     docs_transformed = html2text.transform_documents(
@@ -27,7 +28,14 @@ def run_crawler():
     document_transformer = create_metadata_tagger(metadata_schema=schema, llm=llm)
     enhanced_documents = document_transformer.transform_documents(docs_transformed)
 
-    pprint.pprint(enhanced_documents)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=25,
+                                                   separators=["\n\n", "\n", "  ", ""])
+    documents = text_splitter.split_documents(documents=enhanced_documents)
+    print(f"split into {len(documents)} chunks")
+
+    for doc in documents:
+        pprint.pprint(doc)
+        print("------------")
 
 
 def filter_content(docs_transformed):
@@ -73,7 +81,7 @@ def get_meta_schema():
                 "type": "string",
                 "description": "the location this vehicle is ",
                 "enum": ["Whangarei", "Westgate", "North Shore", "Otahuhu", "Penrose", "Botany", "Manukau", "Hamilton",
-                         "Tauranga", "New Plymouth", "Napier", "Rotorua", "Palmerston North", "Wellington", "Nelson",
+                         "Tauranga", "New Plymouth", "Napier", "Rotorua", "Palmerston North", "Wellington", "Porirua", "Nelson",
                          "Christchurch", "Timaru", "Dunedin", "Invercargill"]
             },
             "vehicle_type": {
@@ -91,7 +99,7 @@ def get_meta_schema():
             }
 
         },
-        "required": ["make", "model"],
+        "required": ["make", "model", "location"],
     }
     return schema
 

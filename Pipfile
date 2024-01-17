@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 langchain = "*"
-pinecone-client = "*"
+pinecone-client = "2.2.4"
 openai = "*"
 lark = "*"
 tiktoken = "*"
@@ -17,6 +17,10 @@ bs4 = "*"
 html5lib = "*"
 async-timeout = "*"
 exceptiongroup = "*"
+networkx = "*"
+langchain-community = "*"
+langchain-openai = "*"
+langchainhub = "*"
 
 [dev-packages]
 

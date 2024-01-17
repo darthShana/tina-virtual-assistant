@@ -1,17 +1,24 @@
+import os
 from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.tools.render import format_tool_to_openai_function
-from langchain.chat_models import ChatOpenAI
+from langchain.tools.retriever import create_retriever_tool
+from langchain_openai import ChatOpenAI
 from langchain.schema.runnable import RunnablePassthrough
 from langchain.agents.format_scratchpad import format_to_openai_functions
 from langchain.agents.output_parsers import OpenAIFunctionsAgentOutputParser
-from langchain.agents import AgentExecutor
+from langchain.agents import AgentExecutor, create_openai_tools_agent
 from langchain.memory import ConversationBufferMemory
 from langchain_core.messages import AIMessage
 
 from backend.tools.finace_caculator_tool import finance_calculation
-from backend.tools.self_query_tool import vehicle_search
+from backend.tools.knowledge_base_search_tool import knowledge_base_search
+from backend.tools.self_query_tool import vehicle_search, self_query_retriever
 from backend.tools.turners_geography_tool import adjust_to_turners_geography
 from backend.tools.vehicle_details_tool import vehicle_details
+from langchain import hub
+
+import pinecone
+pinecone.init(api_key=os.environ["PINECONE_API_KEY"], environment=os.environ["PINECONE_ENVIRONMENT_REGION"])
 
 
 class Tina:
@@ -19,13 +26,8 @@ class Tina:
     def __init__(self):
         prompt = self.prompt()
         tools = self.tools()
-        functions = [format_tool_to_openai_function(f) for f in tools]
-        model = ChatOpenAI(temperature=0, model="gpt-4-1106-preview").bind(
-            functions=functions
-        )
-        self._agent_chain = RunnablePassthrough.assign(
-            agent_scratchpad=lambda x: format_to_openai_functions(x["intermediate_steps"])
-        ) | prompt | model | OpenAIFunctionsAgentOutputParser()
+        llm = ChatOpenAI(temperature=0, model="gpt-4-1106-preview")
+        self._agent_chain = create_openai_tools_agent(llm, tools, prompt)
 
         self._memory = ConversationBufferMemory(return_messages=True, memory_key="chat_history")
         self._agent_executor = AgentExecutor(agent=self._agent_chain, tools=tools, memory=self._memory, verbose=True)
@@ -33,7 +35,11 @@ class Tina:
     @staticmethod
     def prompt():
         return ChatPromptTemplate.from_messages([
-            ("system", "You are a helpful but sassy assistant"),
+            ("system", """
+                You are a helpful but sassy sales assistant, working for Turners Automotive Group,
+                who have vehicles available in branches throughout New Zealand.
+                You are helping a human who has come to your website. Once some criteria is collected present up to
+                5 options, vehicle that are located in branches near to their location are preferred"""),
             MessagesPlaceholder(variable_name="chat_history"),
             ("user", "{input}"),
             MessagesPlaceholder(variable_name="agent_scratchpad")
@@ -44,6 +50,15 @@ class Tina:
         return [
             adjust_to_turners_geography,
             vehicle_search,
+            # create_retriever_tool(
+            #     self_query_retriever(),
+            #     "vehicle_search",
+            #     """
+            #     Searches vehicle listings of vehicles available and returns listings that match as documents
+            #     takes in a list of branches to look for vehicles in addition to a query containing the humans criteria
+            #     """
+            # ),
+            # knowledge_base_search,
             vehicle_details,
             finance_calculation
         ]
@@ -58,7 +73,7 @@ class Tina:
 
     def seed_agent(self):
         self._memory.save_context(
-            {"input": "hi, please introduce your self"},
+            {"input": "hi, im located in Auckland"},
             {"output": "Hi! im Tina, a virtual sales assistant. How can i help you today?"}
         )
 
