@@ -58,12 +58,13 @@ def get_meta_schema():
                 "description": "the model of the vehicle listed",
             },
             "year": {
-                "type": "string",
+                "type": "integer",
                 "description": "the this vehicle was manufactures",
             },
             "fuel": {
                 "type": "string",
                 "description": "the fuel type this vehicle uses",
+                "enum": ["Petrol", "Diesel", "Petrol Hybrid"]
             },
             "seats": {
                 "type": "integer",
@@ -86,7 +87,8 @@ def get_meta_schema():
             },
             "vehicle_type": {
                 "type": "string",
-                "description": "the type for vehicle this is. eg car, van or SUV"
+                "description": "the type for vehicle this is. eg car, van or SUV",
+                "enum": ["Wagon", "Sedan", "Hatchback", "Utility", "Sports Car", "Van", "Tractor"]
             },
             "colour": {
                 "type": "string",
@@ -99,7 +101,7 @@ def get_meta_schema():
             }
 
         },
-        "required": ["make", "model", "location"],
+        "required": ["make", "model", "location", "year"],
     }
     return schema
 

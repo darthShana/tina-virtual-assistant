@@ -42,7 +42,7 @@ def self_query_retriever():
         ),
         AttributeInfo(
             name="fuel",
-            description="the fuel type this vehicle uses. One of ['', '', '']",
+            description="the fuel type this vehicle uses. One of ['Petrol', '', '']",
             type="integer"
         ),
         AttributeInfo(
@@ -67,7 +67,7 @@ def self_query_retriever():
         ),
         AttributeInfo(
             name="vehicle_type",
-            description="the type of vehicle this is. One of ['Wagon', 'Sedan' ,'Hatchback', 'Utility', 'Van', 'Tractor']",
+            description="the type of vehicle this is. One of ['Wagon', 'Sedan' ,'Hatchback', 'Utility', 'Sports Car', 'Van', 'Tractor']",
             type="string"
         ),
         AttributeInfo(
