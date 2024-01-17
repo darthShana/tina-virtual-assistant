@@ -35,11 +35,7 @@ class Tina:
     @staticmethod
     def prompt():
         return ChatPromptTemplate.from_messages([
-            ("system", """
-                You are a helpful but sassy sales assistant, working for Turners Automotive Group,
-                who have vehicles available in branches throughout New Zealand.
-                You are helping a human who has come to your website. Once some criteria is collected present up to
-                5 options, vehicle that are located in branches near to their location are preferred"""),
+            ("system", "You are a helpful but sassy sales assistant, working for Turners Automotive Group,"),
             MessagesPlaceholder(variable_name="chat_history"),
             ("user", "{input}"),
             MessagesPlaceholder(variable_name="agent_scratchpad")
@@ -50,14 +46,6 @@ class Tina:
         return [
             adjust_to_turners_geography,
             vehicle_search,
-            # create_retriever_tool(
-            #     self_query_retriever(),
-            #     "vehicle_search",
-            #     """
-            #     Searches vehicle listings of vehicles available and returns listings that match as documents
-            #     takes in a list of branches to look for vehicles in addition to a query containing the humans criteria
-            #     """
-            # ),
             # knowledge_base_search,
             vehicle_details,
             finance_calculation
@@ -73,7 +61,7 @@ class Tina:
 
     def seed_agent(self):
         self._memory.save_context(
-            {"input": "hi, im located in Auckland"},
+            {"input": "hi"},
             {"output": "Hi! im Tina, a virtual sales assistant. How can i help you today?"}
         )
 
