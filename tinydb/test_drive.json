@@ -1,0 +1,2221 @@
+{
+    "HasPreviouslyBookedAppointment": false,
+    "PreviouslyBookedDate": null,
+    "PreviouslyBookedTime": null,
+    "PreviouslyBookedAppointmentId": null,
+    "Days": [
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 3,
+            "Date": "\/Date(1709413200000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1709409600000)\/",
+                    "IsEnabled": false
+                },
+                {
+                    "Time": "\/Date(1709411400000)\/",
+                    "IsEnabled": false
+                },
+                {
+                    "Time": "\/Date(1709413200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709415000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709416800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709418600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709420400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709422200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709424000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709425800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709427600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709429400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709431200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709433000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709434800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709436600000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Today",
+            "DateText": "3/3",
+            "CashNowDayText": "Sun",
+            "CashNowDateText": "03"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 4,
+            "Date": "\/Date(1709496000000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1709496000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709497800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709499600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709501400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709503200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709505000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709506800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709508600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709510400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709512200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709514000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709515800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709517600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709519400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709521200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709523000000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Mon",
+            "DateText": "4/3",
+            "CashNowDayText": "Mon",
+            "CashNowDateText": "04"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 5,
+            "Date": "\/Date(1709582400000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1709582400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709584200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709586000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709587800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709589600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709591400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709593200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709595000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709596800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709598600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709600400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709602200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709604000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709605800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709607600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709609400000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Tue",
+            "DateText": "5/3",
+            "CashNowDayText": "Tue",
+            "CashNowDateText": "05"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 6,
+            "Date": "\/Date(1709668800000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1709668800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709670600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709672400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709674200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709676000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709677800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709679600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709681400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709683200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709685000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709686800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709688600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709690400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709692200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709694000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709695800000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Wed",
+            "DateText": "6/3",
+            "CashNowDayText": "Wed",
+            "CashNowDateText": "06"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 7,
+            "Date": "\/Date(1709755200000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1709755200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709757000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709758800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709760600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709762400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709764200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709766000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709767800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709769600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709771400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709773200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709775000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709776800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709778600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709780400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709782200000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Thu",
+            "DateText": "7/3",
+            "CashNowDayText": "Thu",
+            "CashNowDateText": "07"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 8,
+            "Date": "\/Date(1709841600000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1709841600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709843400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709845200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709847000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709848800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709850600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709852400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709854200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709856000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709857800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709859600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709861400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709863200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709865000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709866800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709868600000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Fri",
+            "DateText": "8/3",
+            "CashNowDayText": "Fri",
+            "CashNowDateText": "08"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 9,
+            "Date": "\/Date(1709928000000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1709928000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709929800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709931600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709933400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709935200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709937000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709938800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709940600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709942400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709944200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709946000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709947800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709949600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709951400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709953200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1709955000000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Sat",
+            "DateText": "9/3",
+            "CashNowDayText": "Sat",
+            "CashNowDateText": "09"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 10,
+            "Date": "\/Date(1710014400000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1710014400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710016200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710018000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710019800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710021600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710023400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710025200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710027000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710028800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710030600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710032400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710034200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710036000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710037800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710039600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710041400000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Sun",
+            "DateText": "10/3",
+            "CashNowDayText": "Sun",
+            "CashNowDateText": "10"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 11,
+            "Date": "\/Date(1710100800000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1710100800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710102600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710104400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710106200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710108000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710109800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710111600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710113400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710115200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710117000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710118800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710120600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710122400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710124200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710126000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710127800000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Mon",
+            "DateText": "11/3",
+            "CashNowDayText": "Mon",
+            "CashNowDateText": "11"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 12,
+            "Date": "\/Date(1710187200000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1710187200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710189000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710190800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710192600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710194400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710196200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710198000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710199800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710201600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710203400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710205200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710207000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710208800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710210600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710212400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710214200000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Tue",
+            "DateText": "12/3",
+            "CashNowDayText": "Tue",
+            "CashNowDateText": "12"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 13,
+            "Date": "\/Date(1710273600000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1710273600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710275400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710277200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710279000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710280800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710282600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710284400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710286200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710288000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710289800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710291600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710293400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710295200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710297000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710298800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710300600000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Wed",
+            "DateText": "13/3",
+            "CashNowDayText": "Wed",
+            "CashNowDateText": "13"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 14,
+            "Date": "\/Date(1710360000000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1710360000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710361800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710363600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710365400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710367200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710369000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710370800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710372600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710374400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710376200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710378000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710379800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710381600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710383400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710385200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710387000000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Thu",
+            "DateText": "14/3",
+            "CashNowDayText": "Thu",
+            "CashNowDateText": "14"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 15,
+            "Date": "\/Date(1710446400000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1710446400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710448200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710450000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710451800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710453600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710455400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710457200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710459000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710460800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710462600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710464400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710466200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710468000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710469800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710471600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710473400000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Fri",
+            "DateText": "15/3",
+            "CashNowDayText": "Fri",
+            "CashNowDateText": "15"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 16,
+            "Date": "\/Date(1710532800000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1710532800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710534600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710536400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710538200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710540000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710541800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710543600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710545400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710547200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710549000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710550800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710552600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710554400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710556200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710558000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710559800000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Sat",
+            "DateText": "16/3",
+            "CashNowDayText": "Sat",
+            "CashNowDateText": "16"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 17,
+            "Date": "\/Date(1710619200000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1710619200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710621000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710622800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710624600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710626400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710628200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710630000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710631800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710633600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710635400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710637200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710639000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710640800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710642600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710644400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710646200000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Sun",
+            "DateText": "17/3",
+            "CashNowDayText": "Sun",
+            "CashNowDateText": "17"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 18,
+            "Date": "\/Date(1710705600000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1710705600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710707400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710709200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710711000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710712800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710714600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710716400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710718200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710720000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710721800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710723600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710725400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710727200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710729000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710730800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710732600000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Mon",
+            "DateText": "18/3",
+            "CashNowDayText": "Mon",
+            "CashNowDateText": "18"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 19,
+            "Date": "\/Date(1710792000000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1710792000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710793800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710795600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710797400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710799200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710801000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710802800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710804600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710806400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710808200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710810000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710811800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710813600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710815400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710817200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710819000000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Tue",
+            "DateText": "19/3",
+            "CashNowDayText": "Tue",
+            "CashNowDateText": "19"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 20,
+            "Date": "\/Date(1710878400000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1710878400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710880200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710882000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710883800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710885600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710887400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710889200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710891000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710892800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710894600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710896400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710898200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710900000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710901800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710903600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710905400000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Wed",
+            "DateText": "20/3",
+            "CashNowDayText": "Wed",
+            "CashNowDateText": "20"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 21,
+            "Date": "\/Date(1710964800000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1710964800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710966600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710968400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710970200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710972000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710973800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710975600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710977400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710979200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710981000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710982800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710984600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710986400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710988200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710990000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1710991800000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Thu",
+            "DateText": "21/3",
+            "CashNowDayText": "Thu",
+            "CashNowDateText": "21"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 22,
+            "Date": "\/Date(1711051200000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1711051200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711053000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711054800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711056600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711058400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711060200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711062000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711063800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711065600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711067400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711069200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711071000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711072800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711074600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711076400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711078200000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Fri",
+            "DateText": "22/3",
+            "CashNowDayText": "Fri",
+            "CashNowDateText": "22"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 23,
+            "Date": "\/Date(1711137600000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1711137600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711139400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711141200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711143000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711144800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711146600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711148400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711150200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711152000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711153800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711155600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711157400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711159200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711161000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711162800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711164600000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Sat",
+            "DateText": "23/3",
+            "CashNowDayText": "Sat",
+            "CashNowDateText": "23"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 24,
+            "Date": "\/Date(1711224000000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1711224000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711225800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711227600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711229400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711231200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711233000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711234800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711236600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711238400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711240200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711242000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711243800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711245600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711247400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711249200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711251000000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Sun",
+            "DateText": "24/3",
+            "CashNowDayText": "Sun",
+            "CashNowDateText": "24"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 25,
+            "Date": "\/Date(1711310400000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1711310400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711312200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711314000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711315800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711317600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711319400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711321200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711323000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711324800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711326600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711328400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711330200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711332000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711333800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711335600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711337400000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Mon",
+            "DateText": "25/3",
+            "CashNowDayText": "Mon",
+            "CashNowDateText": "25"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 26,
+            "Date": "\/Date(1711396800000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1711396800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711398600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711400400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711402200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711404000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711405800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711407600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711409400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711411200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711413000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711414800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711416600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711418400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711420200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711422000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711423800000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Tue",
+            "DateText": "26/3",
+            "CashNowDayText": "Tue",
+            "CashNowDateText": "26"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 27,
+            "Date": "\/Date(1711483200000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1711483200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711485000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711486800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711488600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711490400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711492200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711494000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711495800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711497600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711499400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711501200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711503000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711504800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711506600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711508400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711510200000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Wed",
+            "DateText": "27/3",
+            "CashNowDayText": "Wed",
+            "CashNowDateText": "27"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 28,
+            "Date": "\/Date(1711569600000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1711569600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711571400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711573200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711575000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711576800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711578600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711580400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711582200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711584000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711585800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711587600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711589400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711591200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711593000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711594800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711596600000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Thu",
+            "DateText": "28/3",
+            "CashNowDayText": "Thu",
+            "CashNowDateText": "28"
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Day": 30,
+            "Date": "\/Date(1711742400000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1711742400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711744200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711746000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711747800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711749600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711751400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711753200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711755000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711756800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711758600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711760400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711762200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711764000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711765800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711767600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1711769400000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Sat",
+            "DateText": "30/3",
+            "CashNowDayText": "Sat",
+            "CashNowDateText": "30"
+        },
+        {
+            "Year": 2024,
+            "Month": 4,
+            "Day": 2,
+            "Date": "\/Date(1712001600000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1712001600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712003400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712005200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712007000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712008800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712010600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712012400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712014200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712016000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712017800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712019600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712021400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712023200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712025000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712026800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712028600000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Tue",
+            "DateText": "2/4",
+            "CashNowDayText": "Tue",
+            "CashNowDateText": "02"
+        },
+        {
+            "Year": 2024,
+            "Month": 4,
+            "Day": 3,
+            "Date": "\/Date(1712088000000)\/",
+            "Appointments": [
+                {
+                    "Time": "\/Date(1712088000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712089800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712091600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712093400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712095200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712097000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712098800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712100600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712102400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712104200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712106000000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712107800000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712109600000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712111400000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712113200000)\/",
+                    "IsEnabled": true
+                },
+                {
+                    "Time": "\/Date(1712115000000)\/",
+                    "IsEnabled": true
+                }
+            ],
+            "DayText": "Wed",
+            "DateText": "3/4",
+            "CashNowDayText": "Wed",
+            "CashNowDateText": "03"
+        }
+    ],
+    "HasResults": true,
+    "NumResults": 29,
+    "PreviouslyBookedContent": null,
+    "error": false,
+    "showErrorContent": false,
+    "errorMessage": null,
+    "errorContent": null,
+    "isRedirect": false,
+    "redirectUrl": null
+}
